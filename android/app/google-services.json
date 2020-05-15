@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "534970112495",
+    "firebase_url": "https://hashblur-image-placeholder.firebaseio.com",
+    "project_id": "hashblur-image-placeholder",
+    "storage_bucket": "hashblur-image-placeholder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534970112495:android:a235e7311b955feaf0fe1a",
+        "android_client_info": {
+          "package_name": "de.myracledesign.blurhashimageplaceholder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534970112495-lh8jgepp9eud6mnlgdp08a46hnofirr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc0oJd2NhDH_dpgOrjW6qZNxitEeMujUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534970112495-lh8jgepp9eud6mnlgdp08a46hnofirr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
