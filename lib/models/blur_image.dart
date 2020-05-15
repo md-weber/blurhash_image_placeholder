@@ -1,15 +1,15 @@
 class BlurImage {
   String hash;
   String url;
-  String filePath;
+  String fileName;
 
-  BlurImage({this.hash, this.url, this.filePath});
+  BlurImage({this.hash, this.url, this.fileName});
 
   BlurImage.fromJson(Map<String, dynamic> json)
       : hash = json["hash"],
         url = json["url"],
-        filePath = json["filePath"];
+        fileName = json["fileName"];
 
   Map<String, dynamic> toJson() =>
-      {"hash": hash, "url": url, "filePath": filePath};
+      {"hash": hash, "url": url, "fileName": fileName};
 }

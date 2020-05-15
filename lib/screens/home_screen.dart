@@ -1,6 +1,5 @@
 import 'package:blurhashimageplaceholder/provider/app_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_blurhash/flutter_blurhash.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 
@@ -26,12 +25,8 @@ class HomeScreen extends StatelessWidget {
                 padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
                 sliver: SliverGrid(
                   delegate: SliverChildBuilderDelegate(
-                    (context, index) => BlurHash(
-                      hash: appProvider.blurImages[index].hash,
-                      image: appProvider.blurImages[index].url,
-                      imageFit: BoxFit.cover,
-                    ),
-                    childCount: appProvider.blurImages.length,
+                    (context, index) => Placeholder(),
+                    childCount: 8,
                   ),
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,

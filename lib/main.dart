@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: ChangeNotifierProvider<AppProvider>(
-        create: (context) => AppProvider(stringList),
+        create: (context) => AppProvider(),
         child: HomeScreen(),
       ),
     );
